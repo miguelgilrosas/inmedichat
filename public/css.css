@@ -1,0 +1,71 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: lightgrey;
+	font-size: 16px;
+}
+
+h1, h2, h3 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+header {
+	background: grey;
+	padding: 0.7em;
+}
+
+.comentarios-item {
+	background: #ddd;
+	margin: 0.5em;
+	padding: 0.2em;
+}
+
+.izquierda, .central {
+	display: block;
+	float: left;
+	height: 50em;
+}
+
+.izquierda {
+	background: #bbb;
+	width: 30%;
+}
+
+.izquierda-item {
+	width: 30%;
+}
+
+.central {
+	width: 70%;
+}
+
+.form {
+	padding: 0.5em;
+}
+
+.form-nuevo {
+	width: 70%;
+}
+
+.logo {
+	display: inline-block;
+	padding: 0;
+}
+
+.logo-img {
+	float: left;
+	width: 10em;
+}
+
+.titulos {
+	display: inline-block;
+	float: right;
+	padding-top: 1em;
+	width: 60%;
+}

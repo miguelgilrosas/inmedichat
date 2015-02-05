@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>InmediChat. Chat en tiempo real</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="css.css">
+	<script src="//code.jquery.com/jquery.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+	<header>
+		<figure class="logo">
+			<a href="http://www.nodejs.org">
+				<img src="http://calebmadrigal.com/images/nodejs-logo.png" alt="logo de NodeJS" class="logo-img">
+			</a>
+		</figure>
+		<div class="titulos">
+			<h1>InmediChat</h1>
+			<h2>Chat en tiempo real</h2>
+			<h3>Con NodeJS, ExpressJS, Socket.io y MySQL</h3>	
+		</div>
+	</header>
+	<section class="izquierda">
+		<!-- <div class="izquierda-item">
+			<a href="http://expressjs.com/"><img src="http://assets.form5.is/assets/img/approach/logo-express@2x.png" alt=""></a>
+		</div> -->
+	</section>
+	<section class="central">
+		<form class="form">
+			<input type="text" value ="" placeholder="Nuevo comentario" class="form-nuevo">
+			<input type="submit" value="Enviar" class="form-boton">
+		</form>
+		<article class="comentarios">	
+		</article>
+	</section>
+	<script src="js.js"></script>
+</body>
+</html>

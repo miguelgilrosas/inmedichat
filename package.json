@@ -1,0 +1,14 @@
+{
+    "name": "InmediChat",
+    "description": "Demo de chat en tiempo real usando Node Js, Expres Js y Socket IO",
+    "version": "0.0.1",
+    "author": "Miguel Gil Rosas",
+    "scripts": {
+        "start": "node app"
+    },
+    "dependencies": {
+        "express": "3.1.x",
+        "socket.io": "0.9.x",
+        "mysql": ""
+    }
+}
