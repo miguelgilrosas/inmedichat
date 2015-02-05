@@ -67,6 +67,6 @@ io.sockets.on("connection", function(socket) {
 });
 
 //Iniciamos servidor
-server.listen(8080);
+server.listen(8080); //En producción el puerto debe ser el 80.
 
 console.log('Servidor funcionando en http://localhost:8080');
