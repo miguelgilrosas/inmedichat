@@ -25,7 +25,7 @@ $(function() {
 			//le envía el contenido del formulario.
 			socket.emit("nuevoComentario", {contenido: contenido});
 			
-			//Crea una referencia al "section.comentarios".
+			//Crea una referencia al "article.comentarios".
 			var $comentarios=$(".comentarios")[0];
 			
 			//Y le inserta al principio el nuevo comentario.
@@ -45,7 +45,7 @@ $(function() {
 				"</div>"+html;
 		}
 		
-		//Y la inserta en el "section.comentarios".
+		//Y la inserta en el "article.comentarios".
 		$(".comentarios")[0].innerHTML=html;
 	});
 
@@ -53,7 +53,7 @@ $(function() {
 	//un comentario).
 	socket.on("broadcastNuevoComentario", function(data) {
 		
-		//Lo añade al "section.comentarios".
+		//Lo añade al "article.comentarios".
 		var $comentarios=$(".comentarios")[0];
 		$comentarios.innerHTML="<div class='comentarios-item'>"+data.contenido+"</div>"+$comentarios.innerHTML;
 	});
