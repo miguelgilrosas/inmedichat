@@ -1,3 +1,4 @@
+//Cuando el DOM esté cargado...
 $(function() {
 	
 	//Primero crea el socket.
